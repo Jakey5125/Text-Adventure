@@ -1,0 +1,16 @@
+Module Module1
+
+    Sub Main()
+        Dim Counter As String
+
+        Counter = "999999999999999"
+
+
+        While Counter <> "0"
+            Console.WriteLine(Counter)
+            Counter = Counter - 1
+        End While
+        Console.ReadLine()
+    End Sub
+
+End Module
